@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gradle files
 .gradle/
 build/
@@ -32,3 +33,58 @@ google-services.json
 
 # Android Profiling
 *.hprof
+=======
+
+# Archivos y carpetas a ignorar en proyectos Android/Gradle
+*.iml
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.lock
+*.orig
+*.hprof
+*.sublime-workspace
+*.sublime-project
+*.class
+*.dex
+*.aab
+*.keystore
+output.json
+local.properties
+
+# Android Studio/IntelliJ
+.idea/
+.vscode/
+captures/
+
+# Gradle
+.gradle/
+gradle/
+!gradle/wrapper/
+
+# Build y cachés
+**/build/
+**/caches/
+.cxx/
+.externalNativeBuild/
+app/.cxx/
+app/.externalNativeBuild/
+app/generated/
+app/intermediates/
+app/outputs/
+
+# Otros gestores
+node_modules/
+.mvn/
+
+# Ignorar archivos de configuración temporales
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+>>>>>>> fecedbb (Primer commit)
